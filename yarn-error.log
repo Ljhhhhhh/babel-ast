@@ -1,0 +1,47 @@
+Arguments: 
+  /usr/local/bin/node /Users/macbookpro/.yarn/bin/yarn.js add babel-parser babel-traverse babel-types babel-generator babel-template
+
+PATH: 
+  /Applications/Visual Studio Code.app/Contents/Resources/app/bin:/Users/macbookpro/.yarn/bin:/Users/macbookpro/.config/yarn/global/node_modules/.bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/Users/macbookpro/.rvm/bin:/Users/macbookpro/Library/Android/sdk/tools:/Users/macbookpro/Library/Android/sdk/platform-tools:/Users/macbookpro/Documents/www/flutter/bin
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  14.15.1
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.npm.taobao.org/babel-parser: Not found
+      at Request.params.callback [as _callback] (/Users/macbookpro/.yarn/lib/cli.js:66987:18)
+      at Request.self.callback (/Users/macbookpro/.yarn/lib/cli.js:140748:22)
+      at Request.emit (events.js:315:20)
+      at Request.<anonymous> (/Users/macbookpro/.yarn/lib/cli.js:141720:10)
+      at Request.emit (events.js:315:20)
+      at IncomingMessage.<anonymous> (/Users/macbookpro/.yarn/lib/cli.js:141642:12)
+      at Object.onceWrapper (events.js:421:28)
+      at IncomingMessage.emit (events.js:327:22)
+      at endReadableNT (_stream_readable.js:1327:12)
+      at processTicksAndRejections (internal/process/task_queues.js:80:21)
+
+npm manifest: 
+  {
+    "name": "babel-ast",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
