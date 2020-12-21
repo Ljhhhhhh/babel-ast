@@ -4,17 +4,22 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "fly": "babel-node --presets env src/index.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@babel/parser": "^7.12.10",
-    "babel-generator": "^6.26.1",
+    "@babel/parser": "^7.12.5",
+    "@babel/traverse": "^7.12.10",
     "babel-template": "^6.26.0",
     "babel-traverse": "^6.26.0",
     "babel-types": "^6.26.0",
-    "babylon": "^6.18.0"
+    "lodash": "^4.17.20",
+    "rimraf": "^3.0.2"
+  },
+  "devDependencies": {
+    "babel-preset-env": "^1.7.0"
   }
 }
